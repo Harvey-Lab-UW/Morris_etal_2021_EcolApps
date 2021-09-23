@@ -17,10 +17,10 @@ This file contains metadata associated with each plot. The following columns are
 - **Block**: code identifying the treatment replicate containing each plot, A-D.
 - **Treatment**: thinning treatment received in 1940, classified by intensity: Control (no thinning), Light, Moderate, Heavy, and Clearcut thinning.
 - **TSI**: presence (Y) or absence (N) of additional timber stand improvement (TSI) thinning.
-- **Date**: calendar date of field data collection, in YYYYMMDD. Range 20180705-20180822.
+- **Date**: calendar date of field data collection, in YYYYMMDD. Range 20180705 to 20180822.
 - **Aspect_deg**: aspect of plot taken from plot center using a compass, in degrees. Range 14-357 deg.
-- **Slope_deg**: slope of plot taken from plot center using a TruPulse 200 laser rangefinder, in degrees. Range 5.6-25.9 deg. 
-- **Elevation_m**: elevation at plot center using a Garmin GPS unit, in meters. Range 2,799-2,999 m.
+- **Slope_deg**: slope of plot taken from plot center using a TruPulse 200 laser rangefinder, in degrees. Range 5.6 to 25.9 deg. 
+- **Elevation_m**: elevation at plot center using a Garmin GPS unit, in meters. Range 2,799 to 2,999 m.
 
 
 ### tree_scale.csv
@@ -33,15 +33,15 @@ This file contains individual tree-level data necessary to run the tree-scale an
   - POTR = *Populus tremuloides*, quaking aspen.
 - **Status**: binary variable indicating live (L) or dead (D) status of each measured tree.
 - **DecayClass**: decay measure for dead trees ranging from 1 (least decayed) to 5 (most decayed). NA's indicate live trees.
-- **DBH_cm**: tree diameter at breast height (DBH), in centimeters. Recorded for trees ≥1.4 m in height. Range 0.1-49.0 cm. NA's indicate tree height < 1.4 m.
-- **BA_m2**: basal area (BA) for each tree ≥1.4 m tall, in square meters. Range 7.85x10<sup>-7</sup>-0.188575 m<sup>2</sup>. NA's indicate tree height < 1.4 m. 
-- **Height_m**: tree height, in meters. Range 0.1-30.0 m. NA's indicate measured trees that were not standing. 
+- **DBH_cm**: tree diameter at breast height (DBH), in centimeters. Recorded for trees ≥1.4 m in height. Range 0.1 to 49.0 cm. NA's indicate tree height < 1.4 m.
+- **BA_m2**: basal area (BA) for each tree ≥1.4 m tall, in square meters. Range 7.85x10<sup>-7</sup> to 0.188575 m<sup>2</sup>. NA's indicate tree height < 1.4 m. 
+- **Height_m**: tree height, in meters. Range 0.1 to 30.0 m. NA's indicate measured trees that were not standing. 
 - **MPB**: binary variable indicating presence (Y) or absence (NA) of signs of mountain pine beetle (MPB; *Dendroctonus ponderosae*) attack. Signs included observed beetle galleries and/or pitch tubes.
 
 ### stand_scale.csv
 This file contains aggregated plot-level data necessary to run the stand-scale analyses. The following columns are included:
 - **PlotID**: unique plot identifier.
-- **Susc_TotalBA_m2_ha**: total basal area (BA) of susceptible lodgepole pine trees (live and DBH ≥ 12 cm prior to outbreak), in square meters per hectare.
+- **Susc_TotalBA_m2_ha**: total basal area (BA) of susceptible lodgepole pine trees (live and DBH ≥ 12 cm prior to outbreak), in square meters per hectare. 
 - **Susc_LiveBA_m2_ha**: total basal area (BA) of susceptible lodgepole pine trees that survived the MPB outbreak, in m<sup>2</sup>/ha.
 - **Susc_TotalStems_ha**: total density of susceptible lodgepole pine trees (live and DBH ≥ 12 cm prior to outbreak), in stems per hectare.
 - **Susc_LiveStems_ha**: total density of susceptible lodgepole pine trees that survived the MPB outbreak, in stems/hectare.
