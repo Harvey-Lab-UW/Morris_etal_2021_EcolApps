@@ -41,10 +41,10 @@ This file contains individual tree-level data necessary to run the tree-scale an
 ### stand_scale.csv
 This file contains aggregated plot-level data necessary to run the stand-scale analyses. The following columns are included:
 - **PlotID**: unique plot identifier.
-- **Susc_TotalBA_m2_ha**: basal area of _, in square meters per hectare.
-- **Susc_LiveBA_m2_ha**: basal area of _, in square meters per hectare.
-- **Susc_TotalStems_ha**: in stems per hectare.
-- **Susc_LiveStems_ha**: in stems per hectare.
+- **Susc_TotalBA_m2_ha**: total basal area (BA) of susceptible lodgepole pine trees (live and DBH ≥ 12 cm prior to outbreak), in square meters per hectare.
+- **Susc_LiveBA_m2_ha**: total basal area (BA) of susceptible lodgepole pine trees that survived the MPB outbreak, in m<sup>2</sup>/ha.
+- **Susc_TotalStems_ha**: total density of susceptible lodgepole pine trees (live and DBH ≥ 12 cm prior to outbreak), in stems per hectare.
+- **Susc_LiveStems_ha**: total density of susceptible lodgepole pine trees that survived the MPB outbreak, in stems/hectare.
 - **Total_QMD_cm**: quadratic mean diameter (QMD) for all live trees ≥1.4 m in height, in centimeters.
   - **PICO_QMD_cm**: QMD for live lodgepole pine, in cm.
   - **ABLA_QMD_cm**: QMD for live subalpine fir, in cm.
