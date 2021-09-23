@@ -8,11 +8,11 @@ There are three main data files made available for reproducibility purposes:
 
 
 The **plot_metadata.csv** file contains metadata associated with each plot. The following columns are included:
-- *PlotID*:
-- *Plot*:
-- *Block*:
-- *Treatment*:
-- *TSI*:
+- *PlotID*: unique plot identifier in the format LocationPlot#_Treatment_Improvement where *Location* is the sampling site (FR = Fraser), *Plot#* is the block replicate (A-D) and plot number (1-5), *Treatment* is the thinning treatment receieved in 1940 (C = control, L = light, M = moderate, H = heavy, X = clearcut), and *Improvement* is the presence of additional timber stand improvement thinning (TSI; N = no, Y = yes).
+- *Plot*: 
+- *Block*: replicate
+- *Treatment*: thinning treatment received in 1940, classified by intensity: Control (no thinning), Light, Moderate, Heavy, and Clearcut thinning.
+- *TSI*: presence (Y) or absence (N) of additional timber stand improvement (TSI) thinning.
 - *Date*:
 - *Aspect_deg*:
 - *Slope_deg*:
