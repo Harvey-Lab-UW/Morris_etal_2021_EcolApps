@@ -57,8 +57,8 @@ This file contains aggregated plot-level data necessary to run the stand-scale a
   - **PIEN_BA_m2_ha**: BA for live Engelmann spruce trees, in m<sup>2</sup>/ha.
   - **POTR_BA_m2_ha**: BA for live quaking aspen trees, in m<sup>2</sup>/ha.
 - **Total_OvrBA_m2_ha**: total basal area (BA) for all live overstory trees (DBH ≥ 12 cm), in square meters per hectare.
-  - **PICO_OvrBA_m2_ha**: BA for live overstory lodgepole pine (PICO) trees, in m<sup>2</sup>/ha.
-  - **ABLA_OvrBA_m2_ha**: BA for live overstory subalpine fir (ABLA) trees, in m<sup>2</sup>/ha.
+  - **PICO_OvrBA_m2_ha**: BA for live overstory lodgepole pine trees, in m<sup>2</sup>/ha.
+  - **ABLA_OvrBA_m2_ha**: BA for live overstory subalpine fir trees, in m<sup>2</sup>/ha.
   - **PIEN_OvrBA_m2_ha**: BA for live overstory Engelmann spruce trees, in m<sup>2</sup>/ha.
   - **POTR_OvrBA_m2_ha**: BA for live overstory quaking aspen trees, in m<sup>2</sup>/ha.
 - **Total_MidBA_m2_ha**: total basal area (BA) for all live midstory trees (5 cm ≤ DBH < 12 cm), in square meters per hectare.
@@ -77,23 +77,23 @@ This file contains aggregated plot-level data necessary to run the stand-scale a
   - **PIEN_Stems_ha**: density of all live Engelmann spruce trees, in stems/ha.
   - **POTR_Stems_ha**: density of all live quaking aspen trees, in stems/ha.
 - **Total_OvrStems_ha**: total density of all live overstory (DBH ≥ 12 cm) trees, in stems per hectare.
-  - **PICO_OvrStems_ha**: density of live overstory lodgepole pine (PICO) trees, in stems/ha.
-  - **ABLA_OvrStems_ha**: density of live overstory subalpine fir (ABLA) trees, in stems/ha.
+  - **PICO_OvrStems_ha**: density of live overstory lodgepole pine trees, in stems/ha.
+  - **ABLA_OvrStems_ha**: density of live overstory subalpine fir trees, in stems/ha.
   - **PIEN_OvrStems_ha**: density of live overstory Engelmann spruce trees, in stems/ha.
   - **POTR_OvrStems_ha**: density of live overstory quaking aspen trees, in stems/ha.
 - **Total_MidStems_ha**: total density of all live midstory trees (5 cm ≤ DBH < 12 cm), in stems per hectare.
-  - **PICO_MidStems_ha**: density of live midstory lodgepole pine (PICO) trees, in stems/ha
-  - **ABLA_MidStems_ha**: density of live midstory subalpine fir (ABLA) trees, in stems/ha.
+  - **PICO_MidStems_ha**: density of live midstory lodgepole pine trees, in stems/ha
+  - **ABLA_MidStems_ha**: density of live midstory subalpine fir trees, in stems/ha.
   - **PIEN_MidStems_ha**: density of live midstory Engelmann spruce trees, in stems/ha.
   - **POTR_MidStems_ha**: density of live midstory quaking aspen trees, in stems/ha.
 - **Total_SapStems_ha**: total density of all live sapling trees (DBH < 5 cm), in stems per hectare.
-  - **PICO_SapStems_ha**: density of live sapling lodgepole pine (PICO) trees, in stems/ha
-  - **ABLA_SapStems_ha**: density of live sapling subalpine fir (ABLA) trees, in stems/ha.
+  - **PICO_SapStems_ha**: density of live sapling lodgepole pine trees, in stems/ha
+  - **ABLA_SapStems_ha**: density of live sapling subalpine fir trees, in stems/ha.
   - **PIEN_SapStems_ha**: density of live sapling Engelmann spruce trees, in stems/ha.
   - **POTR_SapStems_ha**: density of live sapling quaking aspen trees, in stems/ha.
 - **Total_SdlStems_ha**: total density of all live seedling trees (0.1 m ≤ height < 1.4 m), in stems per hectare.
-  - **PICO_SdlStems_ha**: density of live seedling lodgepole pine (PICO) trees, in stems/ha
-  - **ABLA_SdlStems_ha**: density of live seedling subalpine fir (ABLA) trees, in stems/ha.
+  - **PICO_SdlStems_ha**: density of live seedling lodgepole pine trees, in stems/ha
+  - **ABLA_SdlStems_ha**: density of live seedling subalpine fir trees, in stems/ha.
   - **PIEN_SdlStems_ha**: density of live seedling Engelmann spruce trees, in stems/ha.
   - **POTR_SdlStems_ha**: density of live seedling quaking aspen trees, in stems/ha.
 
