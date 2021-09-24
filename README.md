@@ -1,5 +1,5 @@
 # Morris_etal_2021_EcolApps
-Data accompanying the manuscript 'Does the legacy of historical thinning treatments foster resilience to bark beetle outbreaks in subalpine forests?' by Morris, Buonanduci, Agne, Battaglia, and Harvey published in Ecological Applications.
+Data accompanying the manuscript 'Does the legacy of historical thinning treatments foster resilience to bark beetle outbreaks in subalpine forests?' by Morris, Buonanduci, Agne, Battaglia, and Harvey published in Ecological Applications. See the main text of the manuscript for complete descriptions of how data were collected, and greater specifics on values and classifications.  
 
 There are three main data files made available for reproducibility purposes:
 - plot_metadata.csv
@@ -32,11 +32,10 @@ This file contains individual tree-level data necessary to run the tree-scale an
   - PICO = *Pinus contorta*, lodgepole pine
   - POTR = *Populus tremuloides*, quaking aspen.
 - **Status**: binary variable indicating live (L) or dead (D) status of each measured tree.
-- **DecayClass**: decay measure for dead trees ranging from 1 (least decayed) to 5 (most decayed). NA's indicate live trees.
+- **DecayClass**: decay measure for dead trees ranging from 1 (least decayed) to 5 (most decayed). NA's indicate live trees and/or trees with DBH < 5 cm.
 - **DBH_cm**: tree diameter at breast height (DBH), in centimeters. Recorded for trees ≥1.4 m in height. Range 0.1 to 49.0 cm. NA's indicate tree height < 1.4 m.
-- **BA_m2**: basal area (BA) for each tree ≥1.4 m tall, in square meters. Range 7.85x10<sup>-7</sup> to 0.188575 m<sup>2</sup>. NA's indicate tree height < 1.4 m. 
-- **Height_m**: tree height, in meters. Range 0.1 to 30.0 m. NA's indicate measured trees that were not standing. 
 - **MPB**: binary variable indicating presence (Y) or absence (NA) of signs of mountain pine beetle (MPB; *Dendroctonus ponderosae*) attack. Signs included observed beetle galleries and/or pitch tubes.
+
 
 ### stand_scale.csv
 This file contains aggregated plot-level data necessary to run the stand-scale analyses. The following columns are included:
