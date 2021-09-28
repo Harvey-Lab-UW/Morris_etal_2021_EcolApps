@@ -1,5 +1,5 @@
 # Morris_etal_2021_EcolApps
-Data accompanying the manuscript 'Does the legacy of historical thinning treatments foster resilience to bark beetle outbreaks in subalpine forests?' by Morris, Buonanduci, Agne, Battaglia, and Harvey published in Ecological Applications. See the main text of the manuscript for complete descriptions of how data were collected, and greater specifics on values and classifications.  
+Data accompanying the manuscript 'Does the legacy of historical thinning treatments foster resilience to bark beetle outbreaks in subalpine forests?' by Morris, Buonanduci, Agne, Battaglia, and Harvey published in Ecological Applications. *See the main text of the manuscript for complete descriptions of how data were collected, and greater specifics on values and classifications.*  
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
