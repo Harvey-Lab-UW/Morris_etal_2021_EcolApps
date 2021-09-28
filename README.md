@@ -30,7 +30,7 @@ This file contains metadata associated with each plot. The following columns are
 - **Treatment**: thinning treatment received in 1940, classified by intensity: Control (no thinning), Light, Moderate, Heavy, and Clearcut thinning.
 - **TSI**: presence (Y) or absence (N) of additional timber stand improvement (TSI) thinning.
 - **Date**: calendar date of field data collection, in YYYYMMDD. Range 20180705 to 20180822.
-- **Aspect_deg**: aspect of plot taken from plot center using a compass, in degrees. Range 14-357 deg.
+- **Aspect_deg**: aspect of plot taken from plot center using a compass, in degrees. Range 14 to 357 deg.
 - **Slope_deg**: slope of plot taken from plot center using a TruPulse 200 laser rangefinder, in degrees. Range 5.6 to 25.9 deg. 
 - **Elevation_m**: elevation at plot center using a Garmin GPS unit, in meters. Range 2,799 to 2,999 m.
 
