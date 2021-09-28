@@ -24,7 +24,7 @@ This file contains metadata associated with each plot. The following columns are
 - **PlotID**: unique plot identifier in the format Plot_Treatment_TSI. 
   - *Plot* is the site (Fraser, FR), block replicate (A-D), and plot number (1-5)
   - *Treatment* is the thinning treatment receieved in 1940 (C = control, L = light, M = moderate, H = heavy, X = clearcut)
-  - *TSI* is the presence of additional timber stand improvement (TSI) thinning (N = absent, Y = present).
+  - *TSI* is the presence of additional timber stand improvement (TSI) thinning (N = absent, Y = present)
 - **Plot**: code identifying each plot with site (Fraser, FR), block replicate (A-D), and plot number (1-5).
 - **Block**: code identifying the treatment replicate containing each plot, A-D.
 - **Treatment**: thinning treatment received in 1940, classified by intensity: Control (no thinning), Light, Moderate, Heavy, and Clearcut thinning.
